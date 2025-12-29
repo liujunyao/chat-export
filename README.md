@@ -18,7 +18,6 @@
 
 ## 支持的平台
 
-- 🧪 **lgpms.zlgx.com** (测试网站)
 - 💎 **Google Gemini** (gemini.google.com)
 - 🤖 **ChatGPT** (chat.openai.com)
 - 🔍 **DeepSeek** (chat.deepseek.com)
@@ -53,7 +52,6 @@
 
 ### 1. 访问支持的网站
 打开以下任意支持的网站:
-- https://lgpms.zlgx.com (用于测试)
 - https://gemini.google.com
 - https://chat.openai.com
 - https://chat.deepseek.com
