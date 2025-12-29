@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "AI对话导出工具",
+  "version": "1.2.0",
+  "description": "导出AI对话内容的Chrome浏览器插件",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://gemini.google.com/*",
+    "https://chat.openai.com/*",
+    "https://chat.deepseek.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gemini.google.com/*",
+        "https://chat.openai.com/*",
+        "https://chat.deepseek.com/*"
+      ],
+      "js": ["turndown.js", "turndown-plugin-gfm.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
