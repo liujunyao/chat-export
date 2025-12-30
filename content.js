@@ -450,7 +450,8 @@ function updateModalPreview() {
         const ask = exchange.ask;
         const answer = exchange.answer;
         markdownContent += `### 👤 User\n\n`;
-        markdownContent += `${ask}\n\n`;
+        markdownContent += `> [!NOTE] 提问\n`;
+        markdownContent += `> ${ask}\n\n`;
 
         markdownContent += `### 🤖 Assistant\n\n`;
         markdownContent += `${answer}\n\n`;
